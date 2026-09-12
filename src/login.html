@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G6 Real Estate - Log In</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="header-content">
+            <a href="home.html" class="logo">G6<span>Real Estate</span></a>
+
+            <nav id="top-nav" class="top-nav" aria-label="Main Navigation">
+                <ul class="nav-links">
+                    <li><a href="property-listing.html" id="nav-listings">Properties List</a></li>
+                    <li><a href="property-detail.html" id="nav-details">Properties Details</a></li>
+                    <li><a href="about.html" id="nav-about">About</a></li>
+                    <li><a href="contact.html" id="nav-contact">Contact</a></li>
+                </ul>
+                <div class="mobile-actions">
+                    <a href="login.html" class="btn-nav-text" id="nav-mobile-login">Log In</a>
+                    <a href="signup.html" class="btn-nav-primary" id="nav-mobile-signup">Sign Up</a>
+                </div>
+            </nav>
+
+            <div class="header-actions">
+                <a href="login.html" class="btn-nav-text" id="nav-desktop-login">Log In</a>
+                <a href="signup.html" class="btn-nav-primary" id="nav-desktop-signup">Sign Up</a>
+                <button id="nav-toggle" class="nav-toggle" aria-label="Toggle Navigation">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Login Container -->
+    <main class="login-container">
+        <h2>Login</h2>
+
+        <!-- Login Form -->
+        <form id="loginForm" action="home.html" method="GET">
+
+            <!-- Email Input -->
+            <div class="form-group">
+                <label for="loginEmail">Email</label>
+                <input type="email" id="loginEmail" name="email" placeholder="you@example.com">
+            </div>
+
+            <!-- Password Input -->
+            <div class="form-group">
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" name="password" placeholder="********">
+            </div>
+
+            <!-- Login Button -->
+            <button type="submit" class="btn-login">Login</button>
+
+            <!-- Support Links -->
+            <div class="login-links">
+                <a href="signup.html">Sign-up</a> |
+                <a href="#">Forgot password?</a>
+            </div>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Address: Hobart, TAS 7000, Australia</p>
+            <p>Email: contact@g6realestate.com.au</p>
+            <a href="sitemap.html">Site map Link</a>
+        </div>
+        <p class="copyright">&copy; 2026 G6 Real Estate. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

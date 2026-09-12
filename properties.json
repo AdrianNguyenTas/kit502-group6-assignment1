@@ -1,0 +1,140 @@
+{
+    "properties": [
+        {
+            "id": 1,
+            "title": "Modern Family Home",
+            "location": "Parramatta, Sydney NSW",
+            "price": 980000,
+            "type": "House",
+            "bedrooms": 4,
+            "bathrooms": 2,
+            "size": 320,
+            "parking": 2,
+            "status": "For Sale",
+            "image": "../images/property1.jpg",
+            "description": "A beautifully presented two-storey family home in the heart of Parramatta. Features include an open-plan kitchen and living area, four generous bedrooms, two modern bathrooms, and a double lock-up garage. The home is within walking distance of top-rated schools, parks, and public transport.",
+            "seller": {
+                "name": "Sarah Mitchell",
+                "phone": "0412 345 678",
+                "email": "sarah.mitchell@g6realestate.com.au"
+            },
+            "thumbnails": [
+                "../images/property1.jpg",
+                "../images/property1-living.jpg",
+                "../images/property1-kitchen.jpg",
+                "../images/property1-bedroom.jpg",
+                "../images/property1-backyard.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "City View Apartment",
+            "location": "Melbourne CBD, VIC",
+            "price": 2800,
+            "type": "Apartment",
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "size": 85,
+            "parking": 1,
+            "status": "For Rent",
+            "image": "../images/property2.jpg",
+            "description": "Stunning high-rise apartment in Melbourne's CBD with breathtaking city skyline views from the glass balcony. Modern open-plan living, stone benchtops, and floor-to-ceiling windows. Walking distance to Southern Cross Station, Southbank, and Crown Casino. Available immediately.",
+            "seller": {
+                "name": "James Nguyen",
+                "phone": "0423 456 789",
+                "email": "james.nguyen@g6realestate.com.au"
+            },
+            "thumbnails": [
+                "../images/property2.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Brick Townhouse",
+            "location": "Newtown, Brisbane QLD",
+            "price": 650000,
+            "type": "Townhouse",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "size": 210,
+            "parking": 1,
+            "status": "For Sale",
+            "image": "../images/property3.jpg",
+            "description": "This charming red brick townhouse sits on a quiet street in the sought-after suburb of Newtown. Featuring three spacious bedrooms, two bathrooms, a private courtyard, and a single lock-up garage. Close to local cafes, Newtown Park, and bus routes into the Brisbane CBD.",
+            "seller": {
+                "name": "Rebecca Clarke",
+                "phone": "0434 567 890",
+                "email": "rebecca.clarke@g6realestate.com.au"
+            },
+            "thumbnails": [
+                "../images/property3.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Luxury Waterfront Villa",
+            "location": "Main Beach, Gold Coast QLD",
+            "price": 3500000,
+            "type": "House",
+            "bedrooms": 5,
+            "bathrooms": 4,
+            "size": 750,
+            "parking": 3,
+            "status": "For Sale",
+            "image": "../images/property4.jpg",
+            "description": "An exceptional waterfront villa offering resort-style living at its finest. This magnificent five-bedroom residence boasts panoramic ocean views, an infinity pool, a home theatre, and a gourmet kitchen. Situated on one of the Gold Coast's most prestigious addresses, this is a rare opportunity not to be missed.",
+            "seller": {
+                "name": "Tom Harrington",
+                "phone": "0445 678 901",
+                "email": "tom.harrington@g6realestate.com.au"
+            },
+            "thumbnails": [
+                "../images/property4.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Studio Apartment",
+            "location": "Fremantle, Perth WA",
+            "price": 1500,
+            "type": "Apartment",
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "size": 42,
+            "parking": 0,
+            "status": "For Rent",
+            "image": "../images/property5.jpg",
+            "description": "A cozy and well-designed studio apartment in the vibrant suburb of Fremantle. The open-plan layout includes a modern kitchen, built-in wardrobe, and large windows that flood the space with natural light. Perfect for a single professional or student. Close to Fremantle Market and public transport.",
+            "seller": {
+                "name": "Amy Wilson",
+                "phone": "0456 789 012",
+                "email": "amy.wilson@g6realestate.com.au"
+            },
+            "thumbnails": [
+                "../images/property5.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Perth Home",
+            "location": "Subiaco, Perth WA",
+            "price": 1150000,
+            "type": "House",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "size": 280,
+            "parking": 2,
+            "status": "For Sale",
+            "image": "../images/property6.jpg",
+            "description": "A stunning single-storey contemporary home in the highly desirable suburb of Subiaco. Featuring three bedrooms, two bathrooms, a stylish open-plan living and dining area, and a spacious alfresco entertaining area. Just minutes from Subiaco Oval, cafes, boutique shops, and Kings Park.",
+            "seller": {
+                "name": "Daniel Scott",
+                "phone": "0467 890 123",
+                "email": "daniel.scott@g6realestate.com.au"
+            },
+            "thumbnails": [
+                "../images/property6.jpg"
+            ]
+        }
+    ]
+}

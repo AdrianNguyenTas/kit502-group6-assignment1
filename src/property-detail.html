@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detailed information, photos, and contact details for this property listing.">
+    <title>G6 Real Estate - Property Details</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-content">
+            <a href="home.html" class="logo">G6<span>Real Estate</span></a>
+            
+            <nav id="top-nav" class="top-nav" aria-label="Main Navigation">
+                <ul class="nav-links">
+                    <li><a href="property-listing.html" id="nav-listings">Properties List</a></li>
+                    <li><a href="property-detail.html" id="nav-details">Properties Details</a></li>
+                    <li><a href="about.html" id="nav-about">About</a></li>
+                    <li><a href="contact.html" id="nav-contact">Contact</a></li>
+                </ul>
+                <div class="mobile-actions">
+                    <a href="login.html" class="btn-nav-text" id="nav-mobile-login">Log In</a>
+                    <a href="signup.html" class="btn-nav-primary" id="nav-mobile-signup">Sign Up</a>
+                </div>
+            </nav>
+
+            <div class="header-actions">
+                <a href="login.html" class="btn-nav-text" id="nav-desktop-login">Log In</a>
+                <a href="signup.html" class="btn-nav-primary" id="nav-desktop-signup">Sign Up</a>
+                <button id="nav-toggle" class="nav-toggle" aria-label="Toggle Navigation">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="detail-wrapper">
+
+            <!-- Breadcrumb nav -->
+            <div class="breadcrumb">
+                <a href="property-listing.html">Listings</a> &rsaquo; <span id="detail-title-crumb">Property Details</span>
+            </div>
+
+            <!-- Back button -->
+            <a href="property-listing.html" class="btn-back">&larr; Back to Listings</a>
+
+            <!-- Image gallery -->
+            <div class="gallery-section">
+                <img id="main-image" src="" alt="Main property image">
+                <div id="thumb-container"></div>
+            </div>
+
+            <!-- Title & meta row -->
+            <div class="detail-meta">
+                <span id="detail-status-badge" class="badge"></span>
+                <span id="detail-location" class="detail-location"></span>
+            </div>
+            <h2 id="detail-title"></h2>
+            <p id="detail-price" class="detail-price-label"></p>
+
+            <!-- Two-column layout: description+specs | seller -->
+            <div class="detail-content">
+
+                <!-- Left: description & specs -->
+                <div class="detail-main">
+
+                    <div class="description-section">
+                        <h3>About This Property</h3>
+                        <p id="detail-description"></p>
+                    </div>
+
+                    <div class="specs-section">
+                        <h3>Property Specifications</h3>
+                        <table class="specs-table">
+                            <tbody>
+                                <tr>
+                                    <td>Price</td>
+                                    <td id="spec-price"></td>
+                                </tr>
+                                <tr>
+                                    <td>Property Type</td>
+                                    <td id="spec-type"></td>
+                                </tr>
+                                <tr>
+                                    <td>Bedrooms</td>
+                                    <td id="spec-beds"></td>
+                                </tr>
+                                <tr>
+                                    <td>Bathrooms</td>
+                                    <td id="spec-baths"></td>
+                                </tr>
+                                <tr>
+                                    <td>Property Size</td>
+                                    <td id="spec-size"></td>
+                                </tr>
+                                <tr>
+                                    <td>Parking Spots</td>
+                                    <td id="spec-parking"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+                <!-- Right: seller info -->
+                <div class="seller-card">
+                    <h3>Seller Information</h3>
+                    <div class="seller-avatar" id="seller-avatar">?</div>
+
+                    <div class="seller-info-item">
+                        <span>Name</span>
+                        <span id="seller-name"></span>
+                    </div>
+                    <div class="seller-info-item">
+                        <span>Phone</span>
+                        <span id="seller-phone"></span>
+                    </div>
+                    <div class="seller-info-item">
+                        <span>Email</span>
+                        <span id="seller-email"></span>
+                    </div>
+
+                    <a href="#" class="btn-contact" id="contact-btn">Contact Agent</a>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Address: Hobart, TAS 7000, Australia</p>
+            <p>Email: contact@g6realestate.com.au</p>
+            <a href="sitemap.html">Site map Link</a>
+        </div>
+        <p class="copyright">&copy; 2026 G6 Real Estate. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

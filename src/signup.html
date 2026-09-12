@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G6 Real Estate - Sign Up</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="header-content">
+            <a href="home.html" class="logo">G6<span>Real Estate</span></a>
+
+            <nav id="top-nav" class="top-nav" aria-label="Main Navigation">
+                <ul class="nav-links">
+                    <li><a href="property-listing.html" id="nav-listings">Properties List</a></li>
+                    <li><a href="property-detail.html" id="nav-details">Properties Details</a></li>
+                    <li><a href="about.html" id="nav-about">About</a></li>
+                    <li><a href="contact.html" id="nav-contact">Contact</a></li>
+                </ul>
+                <div class="mobile-actions">
+                    <a href="login.html" class="btn-nav-text" id="nav-mobile-login">Log In</a>
+                    <a href="signup.html" class="btn-nav-primary" id="nav-mobile-signup">Sign Up</a>
+                </div>
+            </nav>
+
+            <div class="header-actions">
+                <a href="login.html" class="btn-nav-text" id="nav-desktop-login">Log In</a>
+                <a href="signup.html" class="btn-nav-primary" id="nav-desktop-signup">Sign Up</a>
+                <button id="nav-toggle" class="nav-toggle" aria-label="Toggle Navigation">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Registration Container -->
+    <main class="signup-container">
+
+        <!-- Form Header -->
+        <div class="signup-header">
+            <h2>Sign up to your account</h2>
+            <p>Save homes and get instant alerts for exclusive g6realestate.com.au listings</p>
+        </div>
+
+        <!-- Registration Form -->
+        <form id="registrationForm" action="home.html" method="GET">
+
+            <!-- Role Selection -->
+            <div class="form-group role-selection">
+                <label>I am a</label>
+                <input type="radio" id="roleBuyer" name="role" value="buyer">
+                <label for="roleBuyer">Buyer</label>
+                <input type="radio" id="roleSeller" name="role" value="seller">
+                <label for="roleSeller">Seller</label>
+            </div>
+
+            <!-- Name Fields -->
+            <div class="form-group name-fields">
+                <div class="field">
+                    <label for="givenName">Given name</label>
+                    <input type="text" id="givenName" name="givenName" placeholder="e.g. Youngseok">
+                </div>
+                <div class="field">
+                    <label for="middleName">Middle name</label>
+                    <input type="text" id="middleName" name="middleName" placeholder="(optional)">
+                </div>
+                <div class="field">
+                    <label for="surname">Surname</label>
+                    <input type="text" id="surname" name="surname" placeholder="e.g. Kim">
+                </div>
+            </div>
+
+            <!-- Email Input -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com">
+            </div>
+
+            <!-- Phone Number Input -->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="e.g. (+61) 4 1234 5678">
+            </div>
+
+            <!-- Password Input -->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="********">
+            </div>
+
+            <!-- Confirm Password Input Field -->
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="********">
+            </div>
+
+            <!-- Form Action Buttons (Register & Reset) -->
+            <div class="form-actions">
+                <button type="submit" class="btn-register">Register</button>
+                <button type="reset" class="btn-reset">Reset</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Address: Hobart, TAS 7000, Australia</p>
+            <p>Email: contact@g6realestate.com.au</p>
+            <a href="sitemap.html">Site map Link</a>
+        </div>
+        <p class="copyright">&copy; 2026 G6 Real Estate. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
